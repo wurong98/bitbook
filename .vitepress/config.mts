@@ -8,7 +8,7 @@ export default defineConfig({
   description: "比特币快速入门指南",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/Bitcoin.svg',
+    logo: '/logo.svg',
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/00-前言' }
