@@ -9,22 +9,24 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '指南', link: '/00-前言' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '比特币快速入门',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '前言', link: '/00-前言' },
+          { text: '什么是比特币', link: '/01-what-is-bitcoin' },
+          { text: 'UTXO模型', link: '/02-utxo-model' },
+          { text: 'Keys和Address概念', link: '/03-keys-addresses' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/wurong98/bitbook' }
     ]
   }
 })
