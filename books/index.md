@@ -3,27 +3,21 @@ layout: home
 
 hero:
   name: "BitBook"
-  text: "Bitcoin完全指南"
-  tagline: "深入理解比特币的技术细节和运作机制"
+  text: "Bitcoin 技术完全指南"
+  tagline: "专注于比特币的核心技术原理和实现机制。自由、平等、开源、共享"
   actions:
     - theme: brand
       text: "开始阅读"
       link: /00-前言
 
 features:
-  - icon: "📖"
-    title: "前言"
-    details: "深度理解比特币的技术细节，掌握 PoW 共识、供应量、难度调整等核心概念"
-  - icon: "💰"
-    title: "什么是比特币"
-    details: "了解比特币的基本定义、核心概念和工作原理，从去中心化数字货币的角度全面认识"
-  - icon: "⛓️"
-    title: "UTXO模型"
-    details: "掌握比特币的账本系统，理解未花费交易输出如何管理资金所有权"
-  - icon: "🔐"
-    title: "Keys和Address"
-    details: "深入学习非对称加密、密钥推导、地址类型和钱包管理等安全机制"
-  - icon: "📚"
-    title: "深入主题"
-    details: "探索交易结构、脚本系统、挖矿机制、共识规则和隔离见证等高级概念"
+  - icon: "⚙️"
+    title: "技术原理深度剖析"
+    details: "从密码学基础到共识机制，全面讲解比特币的核心技术架构：PoW、SHA256、ECDSA、Merkle 树等"
+  - icon: "🔗"
+    title: "交易与网络机制"
+    details: "详解 UTXO 模型、交易构造、签名验证、脚本系统和 P2P 网络协议"
+  - icon: "👥"
+    title: "专为技术人士打造"
+    details: "适合有编程基础的开发者、区块链工程师和技术爱好者。本指南专注于技术细节，不涉及投资建议、价格讨论或交易策略"
 ---
